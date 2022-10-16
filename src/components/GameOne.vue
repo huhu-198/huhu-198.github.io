@@ -58,10 +58,10 @@
 <script>
 	// import '../../oneGame-js/application';
 
-	import { KeyboardInputManager } from '../../oneGame-js/keyboard_input_manager';
-	import { HTMLActuator } from '../../oneGame-js/html_actuator.js';
-	import { LocalStorageManager } from '../../oneGame-js/local_storage_manager.js';
-	import { GameManager } from '../../oneGame-js/game_manager.js';
+	import { KeyboardInputManager } from './keyboard_input_manager.js';
+	import { HTMLActuator } from './html_actuator.js';
+	import { LocalStorageManager } from './local_storage_manager.js';
+	import { GameManager } from './game_manager.js';
 
 	export default {
 		name: 'GameOne',
